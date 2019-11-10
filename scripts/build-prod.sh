@@ -1,3 +1,5 @@
+# Install needed modules
+npm install
 
 # Generates optized JS
 echo "Generate elm js"

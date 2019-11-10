@@ -1,0 +1,25 @@
+{
+  "name": "johantillmar",
+  "version": "1.0.0",
+  "description": "Personal website written in Elm",
+  "main": "elm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-elm": "elm make src/Main.elm --output=elm.js",
+    "build-production": "scripts/build-prod.sh"
+  },
+  "author": "Johan Tillmar",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.19.0-no-deps",
+    "uglify-js": "^3.6.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flourish3/johantillmar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flourish3/johantillmar/issues"
+  },
+  "homepage": "https://github.com/Flourish3/johantillmar#readme"
+}
